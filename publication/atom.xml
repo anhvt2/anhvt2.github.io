@@ -4,7 +4,7 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Anh Tran's Blog</title>
+ <title>Anh Tran's Publication</title>
  <link href="http://anhvt2.github.io/blog/atom.xml" rel="self"/>
  <link href="http://anhvt2.github.io/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -14,7 +14,7 @@ layout: feed
    <email>anh.vt2@gmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ <!-- {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://anhvt2.github.io{{ post.url }}"/>
@@ -22,6 +22,7 @@ layout: feed
    <id>http://anhvt2.github.io/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
- {% endfor %}
+ {% endfor %} -->
+
  
 </feed>
