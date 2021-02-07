@@ -30,13 +30,13 @@ ul.posts li { list-style: none; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
 /* Research */
-.research { margin: 0px 0px 60px; }
+/*.research { margin: 0px 0px 60px; }
 .research h1 { font-size: 3em; }
 .research h2 { font-size: 2em; }
 .research address, .research .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .research address, .research p { font-size: 1.2em; }
-.research .download { float: right; font-size: .8em; text-transform: uppercase; }
+.research .download { float: right; font-size: .8em; text-transform: uppercase; }*/
 
 
-.ResearchAreas li{ font-size:0.8em;}
+.ResearchAreas li{ font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'
 
