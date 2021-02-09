@@ -31,8 +31,8 @@ ul.posts li { list-style: none; }
 
 /* Research */
 .research { margin: 0px 0px 60px; }
-.research h1 { font-size: .8em; }
-.research h2 { font-size: .8em; }
+.research h1 { font-size: 3em; }
+.research h2 { font-size: 2em; }
 .research address, .research .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .research address, .research p { font-size: .8em; }
 .research .download { float: right; font-size: .8em; text-transform: uppercase; }
